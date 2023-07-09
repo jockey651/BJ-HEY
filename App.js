@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
+
+//const { uuid } = require('uuidv4');  I don't know if this needed -bj //
+
 let Disp;
 const App = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
